@@ -1,0 +1,33 @@
+.TinyTeX/
+build/
+trials/
+__pycache__/
+.DS_Store
+.codex
+.vscode/
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Course/local artifacts not for public repo
+SST_Project-4.pdf
+presentation.tex
+presentation.pdf
+presentation.nav
+presentation.snm
+speaker_notes.md
+
+# Paper sources kept local; only the rendered PDF is published
+main.tex
+main.pdf
+references.bib
+analysis/writeup_notes.md
+scripts/
